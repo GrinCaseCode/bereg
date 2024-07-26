@@ -85,7 +85,7 @@
         padding: 40px 0;
     }
     .title-section {
-        font-size: 24px;
+        font-size: 22px;
         margin-bottom: 25px;
     }
     .about .title-section {
@@ -241,6 +241,7 @@
     }
     .footer {
         font-size: 14px;
+        padding-top: 25px;
     }
     .footer__partners {
         margin-left: 0;
@@ -306,9 +307,6 @@
     .col_contacts {
         order: 3;
     }
-    .col_logo {
-        margin-bottom: 20px;
-    }
     .create img {
         width: 57px;
     }
@@ -369,6 +367,24 @@
         height: 190px;
         padding-bottom: 10px;
     }
+    .list-socials {
+        gap: 12px;
+    }
+    .header__contacts {
+        gap: 22px;
+    }
+    .footer__nav li {
+        margin-bottom: 10px;
+    }
+    .footer__logo {
+        gap: 22px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .footer__logo .logo-descr {
+        display: block;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -409,6 +425,7 @@
     .footer__content {
         display: block !important;
     }
+    .footer__logo .logo-descr,
     .menu-mobile {
         display: none !important;
     }
