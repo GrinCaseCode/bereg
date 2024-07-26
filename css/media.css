@@ -354,8 +354,12 @@
         z-index: -1;
     }
     .title-big {
-        font-size: 19px;
+        font-size: 25px;
         margin: 15px 0;
+        line-height: 140%;
+    }
+    .billbord .title-big {
+        max-width: 288px;
     }
     .item-billbord__title {
         font-size: 8px;
@@ -386,6 +390,9 @@
     }
     .presentation__wrap {
         z-index: 3;
+    }
+    .body_menu {
+        overflow: hidden;
     }
 }
 
