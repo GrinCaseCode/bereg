@@ -1,0 +1,423 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .container {
+        max-width: 800px;
+        padding: 0 15px;
+    }
+    .row {
+        margin: 0 -5px;
+    }
+    .row > div {
+        padding: 0 5px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .header__wrapper .list-socials,
+    .header__wrapper .header__info,
+    .header__wrapper .menu {
+        display: none;
+    }
+    .logo-descr {
+        font-size: 12px;
+        max-width: 157px;
+        display: none;
+    }
+    .logo img {
+        width: 90px;
+    }
+    .header__info {
+        font-size: 14px;
+    }
+    .list-socials img {
+        height: 36px;
+        width: 36px;
+    }
+    .btn-main {
+        height: 40px;
+        font-size: 14px;
+        padding: 0 18px;
+        border-radius: 40px;
+    }
+    .btn-main i {
+        font-size: 14px;
+        margin-right: 11px;
+    }
+    .btn-main.btn-main_phone {
+        width: 40px;
+        height: 40px;
+        font-size: 0;
+        padding: 0;
+    }
+    .btn-main.btn-main_phone i {
+        margin: 0;
+    }
+    .header {
+        padding: 10px 0;
+    }
+    .wrapper {
+        padding-top: 65px;
+    }
+    .item-billbord {
+        padding: 30px 10px;
+        height: 220px;
+    }
+    .item-billbord__logo {
+        height: 60px;
+    }
+    .item-billbord:nth-child(1) .item-billbord__logo img {
+        height: 42px;
+    }
+    .item-billbord:nth-child(2) .item-billbord__logo img {
+        height: 45px;
+    }
+    .item-billbord:nth-child(3) .item-billbord__logo img {
+        height: 56px;
+    }
+    .about {
+        padding: 40px 0;
+    }
+    .title-section {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .about .title-section {
+        max-width: 100%;
+    }
+    .descr-section {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .about .descr-section {
+        max-width: 100%;
+    }
+    .row.row_main > div {
+        margin-bottom: 15px;
+    }
+    .row.row_main {
+        margin-bottom: -15px;
+    }
+    .item-about {
+        font-size: 14px;
+        padding: 20px 15px;
+    }
+    .item-about__head {
+        margin-bottom: 10px;
+    }
+    .item-about__title {
+        margin-bottom: 20px;
+    }
+    .item-about__head span {
+        font-size: 50px;
+    }
+    .about img {
+        margin-top: 20px;
+    }
+    .services .title-section {
+        max-width: 100%;
+        margin-bottom: 25px;
+    }
+    .services {
+        padding-bottom: 40px;
+    }
+    .item-service__head img {
+        width: 40px;
+    }
+    .item-service__head {
+        margin-bottom: 17px;
+        font-size: 16px;
+        gap: 15px;
+    }
+    .item-service {
+        padding: 20px 15px;
+        min-height: 200px;
+    }
+    .presentation__image {
+        margin: 0;
+    }
+    .presentation__wrap .title-section {
+        font-size: 24px;
+        left: 15px;
+        max-width: 313px;
+        top: 20px;
+    }
+    .form-main {
+        padding: 20px 15px;
+        font-size: 14px;
+        margin: 0;
+        margin-top: 25px;
+    }
+    .presentation__mockup img {
+        width: 300px;
+    }
+    .presentation__mockup {
+        left: -50px;
+        bottom: -85px;
+        right: auto;
+    }
+    .list-block li::before {
+        width: 16px;
+        height: 16px;
+        top: 2px;
+    }
+    .list-block li {
+        padding-left: 26px;
+    }
+    .list-block {
+        gap: 15px 5px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        line-height: 140%;
+    }
+    .form-main__title {
+        font-size: 22px;
+        margin-bottom: 13px;
+    }
+    .form-main__descr {
+        margin-bottom: 12px;
+    }
+    .item-form {
+        margin-bottom: 12px;
+    }
+    .item-form input {
+        height: 44px;
+        font-size: 14px;
+    }
+    .form-main__bottom {
+        padding-top: 20px;
+        flex-direction: column-reverse;
+    }
+    .form-main .btn-main {
+        padding: 0 10px;
+        height: 45px;
+        width: 100%;
+    }
+    .checkbox {
+        font-size: 13px;
+        margin-top: 20px;
+        line-height: 130%;
+        opacity: 0.5;
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: normal;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+    }
+    .checkbox label input {
+        position: absolute;
+        z-index: -1;
+        height: 1px !important;
+        width: 1px !important;
+        opacity: 0 !important;
+        margin: 12px 2px 0 7px !important;
+    }
+    .checkbox label > span {
+        padding: 4px 0 0 32px;
+    }
+    .checkbox label > span:before {
+        top: 2px;
+        left: 0;
+        width: 19px;
+        height: 19px;
+    }
+    .checkbox label > span:after {
+        top: 2px;
+        left: 0px;
+        width: 19px;
+        height: 19px;
+        font-size: 10px;
+    }
+    .footer .logo img {
+        margin-top: 0;
+        width: 130px;
+    }
+    .footer {
+        font-size: 14px;
+    }
+    .footer__partners {
+        margin-left: 0;
+    }
+    .footer__subtitle, .footer__title {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+    .contacts-line {
+        margin-bottom: 15px;
+        gap: 16px;
+    }
+    .phone-main {
+        font-size: 18px;
+    }
+    .socials-main {
+        gap: 15px;
+    }
+    .socials-main img {
+        width: 20px;
+    }
+    .footer__column {
+        margin-left: 0;
+    }
+    .footer__subtitle {
+        margin-top: 15px;
+    }
+    .footer p {
+        margin-bottom: 7px;
+    }
+    .list-partners img {
+        height: 40px;
+    }
+    .footer__content {
+        display: none;
+    }
+    .footer__title {
+        padding: 10px 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer__title i {
+        display: inline-block;
+        transition: all 0.3s;
+    }
+    .footer__title.active i {
+        transform: rotate(180deg);
+    }
+    .footer-bottom .row > div {
+        padding-bottom: 15px;
+    }
+    .btn-top {
+        margin-top: -50px;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+    }
+    .col_partners {
+        order: 2;
+    }
+    .col_contacts {
+        order: 3;
+    }
+    .col_logo {
+        margin-bottom: 20px;
+    }
+    .create img {
+        width: 57px;
+    }
+    .footer-bottom {
+        padding: 15px 0;
+        margin-top: 10px;
+    }
+    .sandwich {
+        display: flex;
+    }
+    .menu-mobile {
+        width: 100%;
+        top: 100%;
+        left: 0;
+        max-height: calc(100vh - 60px);
+        padding: 15px 15px;
+        padding-bottom: 50px;
+        display: none;
+        overflow: auto;
+        background-color: #fff;
+        position: absolute;
+    }
+    .menu a {
+        margin: 0;
+        padding: 10px 0;
+        display: block;
+        position: relative;
+        border-bottom: 1px solid #807F7D;
+    }
+    .menu-mobile .menu {
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .menu-mobile .header__contacts {
+        margin-bottom: 20px;
+    }
+    .menu-overlay {
+        top: 77px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        z-index: -1;
+    }
+    .title-big {
+        font-size: 19px;
+        margin: 15px 0;
+    }
+    .item-billbord__title {
+        font-size: 8px;
+        margin-bottom: 5px;
+        line-height: 140%;
+    }
+    .billbord_main .item-billbord {
+        height: 190px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .footer__content {
+        display: block !important;
+    }
+    .menu-mobile {
+        display: none !important;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1600px) {
+
+}
